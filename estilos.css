@@ -45,7 +45,72 @@ figure figcaption{
 	height:20%;
 }
 
+nav {
+	
+	background-color:white;
+}
 
+
+aside {
+	width:20%;
+	float:right;
+}
+
+main {
+	width:80%
+}
+footer{
+	clear:rigth;
+	border:0px;
+}
+
+ul{
+	margin:0px;
+	padding:0;	
+	list-style-type:none;
+	tex-align:center;
+}
+
+ul li{
+	z-index:1;
+	display:table-cell;
+	width:150px;
+	position:relative;
+}
+
+
+ul li a{
+	display:block;
+	line-height:50px;
+	color:black;
+	background-color:white;
+	line-height:50 px;
+	text-decoration:none;
+	
+}
+ul li a:hover{
+	color:white;
+	background-color:black;
+	font-weight:bold;
+	
+	
+}
+ul li:hover ul{
+	max-height:300px;
+	
+}
+ul li ul{
+	position:absolute;
+	overflow:hidden;
+	max-height:0px;
+	blackground-color:red;
+	transition:max-height 1s;
+}
+ul li ul li{
+	display:block;
+	
+	
+}
 
 
 
